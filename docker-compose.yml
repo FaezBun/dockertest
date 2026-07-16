@@ -1,0 +1,6 @@
+services:
+  laman-web-ujian:
+    image: nginx:alpine
+    container_name: ujian_nginx
+    ports:
+      - "8080:80"
